@@ -17,6 +17,20 @@ const repeatStringNumTimes = (str, num) => {
     return final
 }
 
+
+// using while loop 
+const repeatStringNumTimes = (str, num) => {
+    let repeat = ''
+
+    while (num > 0) {
+        repeat += str
+        num--
+    }
+    return repeat
+}
+
+
+
 // using Recursion
 
 function repeatStringNumTimes(str, num) {
