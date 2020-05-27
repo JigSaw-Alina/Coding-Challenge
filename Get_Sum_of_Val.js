@@ -7,8 +7,6 @@ const getSumofVal = (...arg) => {
     ), 0);
 }
 
-
-
 getSumofVal(10, 20) // 30
 getSumofVal(5, 8) // 13
 getSumofVal(10, -10) // 0
