@@ -19,3 +19,4 @@ const closeTo100 = (...arr) => {
 closeTo100(30, 40) // 40
 closeTo100(101, 98) // 101
 closeTo100(-2, -3) // -2
+
